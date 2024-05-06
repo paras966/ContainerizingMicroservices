@@ -13,7 +13,7 @@ Uploaded Dockerfiles for containerizing Data Visualization, Data Ingestion micro
 - docker run -d --name data-visualization -p 8081:8081 -e DATA_INGESTION=data-ingestion --network microservices docker.io/paraspatil/data-visualization
 - docker run -d --name kafka-producer -e KAFKA_SERVER=kafka --network microservices docker.io/paraspatil/kafka-producer
 </pre>
-<br><br><br>
+<br>
 
 - ALLOW_ANONYMOUS_LOGIN=yes: Allows anonymous login in Zookeeper container.
 - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181: Specifies the Zookeeper connection for Kafka.
